@@ -1,0 +1,13 @@
+{% extends "quiz/base.html" %}
+{% block content %}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 90vh;">
+    <div class="card shadow-lg" style="width: 100%; max-width: 400px;">
+        <h3 class="card-title bg-success text-light card-header text-center">Result</h3>
+        <div class="p-4 text-center">
+        <p>Your Score: <strong>{{ score }} / {{ total }}</strong></p>
+        <a href="/" class="btn btn-success">Back to Home</a>
+    </div>
+    </div>
+</div>
+{% endblock %}
